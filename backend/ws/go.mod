@@ -3,7 +3,7 @@ module ws
 go 1.14
 
 require (
-	github.com/YujiYabe/goMediaServerDemo v0.0.0-20210421002803-fde8868e0e01
+	github.com/yabeyuji/goMediaServerDemo v0.0.0-20210421002803-fde8868e0e01
 	github.com/dgrijalva/jwt-go v3.2.0+incompatible // indirect
 	github.com/golang/mock v1.5.0
 	github.com/gorilla/websocket v1.4.2

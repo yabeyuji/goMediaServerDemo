@@ -10,7 +10,7 @@ import (
 
 	"google.golang.org/grpc"
 
-	cpb "github.com/YujiYabe/goMediaServerDemo/backend/commonpb"
+	cpb "github.com/yabeyuji/goMediaServerDemo/backend/commonpb"
 )
 
 // ReceiveContent ...

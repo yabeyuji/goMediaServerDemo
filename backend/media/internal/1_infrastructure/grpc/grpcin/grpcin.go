@@ -10,7 +10,7 @@ import (
 	"media/internal/2_adapter/controller"
 	"media/pkg/shared"
 
-	cpb "github.com/YujiYabe/goMediaServerDemo/backend/commonpb"
+	cpb "github.com/yabeyuji/goMediaServerDemo/backend/commonpb"
 )
 
 var myErr *shared.MyErr

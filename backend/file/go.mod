@@ -3,7 +3,7 @@ module file
 go 1.14
 
 require (
-	github.com/YujiYabe/goMediaServerDemo v0.0.0-20210421002803-fde8868e0e01
+	github.com/yabeyuji/goMediaServerDemo v0.0.0-20210421002803-fde8868e0e01
 	github.com/golang/mock v1.5.0
 	github.com/pborman/uuid v1.2.1
 	golang.org/x/net v0.0.0-20210420210106-798c2154c571 // indirect

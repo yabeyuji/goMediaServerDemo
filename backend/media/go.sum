@@ -1,7 +1,7 @@
 cloud.google.com/go v0.26.0/go.mod h1:aQUYkXzVsufM+DwF1aE+0xfcU+56JwCaLick0ClmMTw=
 github.com/BurntSushi/toml v0.3.1/go.mod h1:xHWCNGjB5oqiDr8zfno3MHue2Ht5sIBksp03qcyfWMU=
-github.com/YujiYabe/goMediaServerDemo v0.0.0-20210421002803-fde8868e0e01 h1:/r2HiQ3q04UUYyda7TtVo/UV6e+uEfXth1Rka0PyMBY=
-github.com/YujiYabe/goMediaServerDemo v0.0.0-20210421002803-fde8868e0e01/go.mod h1:yC82M2i4p/m1PZwZEHvNIRC6DePcEhUuh0fL26ofmfc=
+github.com/yabeyuji/goMediaServerDemo v0.0.0-20210421002803-fde8868e0e01 h1:/r2HiQ3q04UUYyda7TtVo/UV6e+uEfXth1Rka0PyMBY=
+github.com/yabeyuji/goMediaServerDemo v0.0.0-20210421002803-fde8868e0e01/go.mod h1:yC82M2i4p/m1PZwZEHvNIRC6DePcEhUuh0fL26ofmfc=
 github.com/adrg/libvlc-go/v3 v3.1.4 h1:zWBln9eEuMzZbOFtgmvHpufYejAuelfmGpiWG9f0n24=
 github.com/adrg/libvlc-go/v3 v3.1.4/go.mod h1:xJK0YD8cyMDejnrTFQinStE6RYCV1nlfS8KmqTpszSc=
 github.com/census-instrumentation/opencensus-proto v0.2.1/go.mod h1:f6KPmirojxKA12rnyqOA5BBL4O983OfeGPqjHWSTneU=

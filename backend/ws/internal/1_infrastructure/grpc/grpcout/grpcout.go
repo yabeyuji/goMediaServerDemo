@@ -3,7 +3,7 @@ package grpcout
 import (
 	"bytes"
 
-	cpb "github.com/YujiYabe/goMediaServerDemo/backend/commonpb"
+	cpb "github.com/yabeyuji/goMediaServerDemo/backend/commonpb"
 
 	"ws/internal/2_adapter/service"
 	"ws/pkg/shared"

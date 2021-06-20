@@ -8,7 +8,7 @@ import (
 
 	"google.golang.org/grpc"
 
-	cpb "github.com/YujiYabe/goMediaServerDemo/backend/commonpb"
+	cpb "github.com/yabeyuji/goMediaServerDemo/backend/commonpb"
 	"github.com/pborman/uuid"
 
 	"file/internal/2_adapter/controller"
