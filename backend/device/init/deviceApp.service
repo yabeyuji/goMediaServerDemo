@@ -1,0 +1,32 @@
+[Unit]
+Description=deviceApp service daemon
+After=network-online.target
+
+[Service]
+Environment="GOPATH=/home/pi/go"
+
+ExecStart=/home/pi/workspace/goMediaServer/backend/device/cmd/deviceApp
+ExecStop=/bin/kill -INT ${MAINPID}
+Restart=always
+WorkingDirectory=/home/pi/workspace/goMediaServer/backend/device/cmd
+
+StartLimitInterval=30
+StartLimitBurst=1
+Type=simple
+User=pi
+Group=pi
+# Other directives omitted
+# (file size)
+LimitFSIZE=infinity
+# (cpu time)
+LimitCPU=infinity
+# (virtual memory size)
+LimitAS=infinity
+# (open files)
+LimitNOFILE=64000
+# (processes/threads)
+LimitNPROC=64000
+
+[Install]
+WantedBy=multi-user.target
+

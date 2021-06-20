@@ -13,3 +13,19 @@
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
+
+
+*.log
+
+anime/
+temp/
+video/
+
+.favorites.json
+db.json
+
+wsApp
+fileApp
+mediaApp
+deviceApp
+

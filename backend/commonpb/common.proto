@@ -1,0 +1,47 @@
+syntax = "proto3";
+
+option go_package = "github.com/YujiYabe/goMediaServerDemo/backend/commonpb";
+
+package commonpb;
+
+// -------------------------------------------
+service SendContentService {
+  rpc SendContentRPC (SendContentRequest) returns (SendContentResponse) {}
+}
+message SendContentRequest {
+  string Room = 1;
+  string Object = 2;
+  string Key = 3;
+  string Value = 4;
+}
+
+message SendContentResponse { string message = 1;}
+
+// -------------------------------------------
+service ReceiveContentService {
+  rpc ReceiveContentRPC (ReceiveContentRequest) returns (ReceiveContentResponse) {}
+}
+message ReceiveContentRequest {
+  string message = 1;
+}
+
+message ReceiveContentResponse {
+  string Room = 1;
+  string Object = 2;
+  string Key = 3;
+  string Value = 4;
+}
+
+
+// -------------------------------------------
+service PostFile {
+  rpc PostFileRPC (stream RequestPostFile) returns (ResponsePostFile) {}
+}
+message ResponsePostFile { string message = 1;}
+
+message RequestPostFile {
+    oneof value {
+        bytes data = 1;
+        string name = 2;
+    }
+}
